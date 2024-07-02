@@ -2,13 +2,11 @@ import 'reflect-metadata';
 import express from 'express';
 import { createConnection, DataSource } from "typeorm";
 import dotenv from 'dotenv';
-import routes from './src/routes/index';
-import { AppDataSource } from './src/services/data-source.service'
+import routes from './routes/index';
+import { AppDataSource } from './data-source'
 
 // Carregar variáveis de ambiente do arquivo .env
 dotenv.config();
-
-
 
 const app = express();
 const PORT = process.env.PORT || 3000;

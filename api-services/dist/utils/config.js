@@ -33,4 +33,6 @@ exports.config = {
     user: process.env.PG_USER,
     password: process.env.PG_PASSWORD,
     database: process.env.PG_DATABASE,
+    entities: [`${__dirname}/**/entities/*.{ts,js}`],
+    migrations: [`${__dirname}/**/migrations/*.{ts,js}`]
 };

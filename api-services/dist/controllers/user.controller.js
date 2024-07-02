@@ -10,17 +10,17 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UserController = void 0;
-const typeorm_1 = require("typeorm");
 const user_entities_1 = require("../entities/user.entities");
 const user_service_1 = require("../services/user.service");
+const data_source_1 = require("../data-source");
+const useralreadyexistserror_1 = require("../errors/useralreadyexistserror");
 class UserController {
     constructor() {
         this.userService = new user_service_1.UserService();
-        // Outros métodos como login, etc.
     }
     getUsers(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
-            const userRepository = (0, typeorm_1.getRepository)(user_entities_1.User);
+            const userRepository = data_source_1.AppDataSource.getRepository(user_entities_1.User);
             const users = yield userRepository.find();
             res.json(users);
         });
@@ -31,10 +31,18 @@ class UserController {
             const { name, email, password, authType } = req.body;
             try {
                 const user = yield this.userService.createUser(name, email, password, authType);
-                return res.status(201).json(user);
+                //return res.status(201).json(user);
+                return res.status(201).json({
+                    success: true,
+                    message: 'User created successfully',
+                    user: user // Aqui você pode retornar o novo usuário criado se desejar
+                });
             }
             catch (error) {
-                return res.status(500).json({ message: error });
+                if (error instanceof useralreadyexistserror_1.UserAlreadyExistsError) {
+                    return res.status(409).json({ message: error.message });
+                }
+                return res.status(500).json({ message: 'Internal server error - ' + error });
             }
         });
     }

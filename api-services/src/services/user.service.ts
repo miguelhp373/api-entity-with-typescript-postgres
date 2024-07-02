@@ -1,13 +1,20 @@
 import { getRepository } from 'typeorm';
-import { User } from '../entity/user.entities';
+import { User } from '../entities/user.entities';
 import * as bcrypt from 'bcrypt';
-import { AppDataSource } from './data-source.service';
+import { AppDataSource } from '../data-source';
+import { UserAlreadyExistsError } from '../errors/useralreadyexistserror';
 
 export class UserService {
 
     private userRepository = AppDataSource.getRepository(User);
 
     async createUser(name: string, email: string, password: string, authType: string): Promise<User> {
+        
+        const userExists = await this.userRepository.findOne({where : {email}});
+
+        if(userExists){
+            throw new UserAlreadyExistsError('O Usuário Já Existe!');
+        }
         
         const hashedPassword = await bcrypt.hash(password, 10);
 

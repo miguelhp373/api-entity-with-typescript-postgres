@@ -1,0 +1,242 @@
+[
+    {
+        "id" : 1,
+        "name": "ABC Brasil",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/ABC%20Brasil/logoabc.svg"
+    },
+    {
+        "id" : 2,
+        "name": "Ailos",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Ailos/logo-ailos.svg"
+    },
+    {
+        "id" : 3,
+        "name": "Asaas IP S.A",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Asaas%20IP%20S.A/header-logo-branco.svg"
+    },
+    {
+        "id" : 4,
+        "name": "BRB - Banco de Brasília",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/BRB%20-%20Banco%20de%20Brasilia/brb-logo.svg"
+    },
+    {
+        "id" : 5,
+        "name": "Banco BS2 S.A",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20BS2%20S.A/Banco_BS2.svg"
+    },
+    {
+        "id" : 6,
+        "name": "Banco BTG Pactual",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20BTG%20Pacutal/btg-pactual.svg"
+    },
+    {
+        "id" : 7,
+        "name": "Banco C6 S.A",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20C6%20S.A/c6%20bank.svg"
+    },
+    {
+        "id" : 8,
+        "name": "Banco Daycoval",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20Daycoval/logo-Daycoval.svg"
+    },
+    {
+        "id" : 9,
+        "name": "Banco Industrial do Brasil S.A",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20Daycoval/logo-Daycoval.svg"
+    },
+    {
+        "id" : 10,
+        "name": "Banco Inter S.A",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20Inter%20S.A/inter.svg"
+    },
+    {
+        "id" : 11,
+        "name": "Banco Mercantil do Brasil",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20Mercantil%20do%20Brasil%20S.A/banco-mercantil-novo-azul.svg"
+    },
+    {
+        "id" : 12,
+        "name": "Banco Original S.A",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20Original%20S.A/banco-original-logo-verde.svg"
+    },
+    {
+        "id" : 13,
+        "name": "Banco Pine",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20Pine/banco-pine.svg"
+    },
+    {
+        "id" : 14,
+        "name": "Banco Rendimento",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20Rendimento/banco%20rendimento%20logo%20nova%20.svg"
+    },
+    {
+        "id" : 15,
+        "name": "Banco Safra S.A",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20Safra%20S.A/logo-safra.svg"
+    },
+    {
+        "id" : 16,
+        "name": "Banco Santander Brasil S.A",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20Santander%20Brasil%20S.A/santander-fundo-vermelho.svg"
+    },
+    {
+        "id" : 17,
+        "name": "Banco Sofisa",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20Sofisa/logo-sofisa.svg"
+    },
+    {
+        "id" : 18,
+        "name": "Banco Topazio",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20Topazio/logo-banco-topazio.svg"
+    },
+    {
+        "id" : 19,
+        "name": "Banco Triângulo - Tribanco",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20Tri%C3%A2ngulo%20-%20Tribanco/logotribanco.svg"
+    },
+    {
+        "id" : 20,
+        "name": "Banco da Amazônia S.A",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20da%20Amaz%C3%B4nia%20S.A/banco-da-amazonia.svg"
+    },
+    {
+        "id" : 21,
+        "name": "Banco do Brasil",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20do%20Brasil%20S.A/banco-do-brasil-com-fundo.svg"
+    },
+    {
+        "id" : 22,
+        "name": "Banco do Estado do Espirito Santo",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20do%20Estado%20do%20Espirito%20Santo/banestes.svg"
+    },
+    {
+        "id" : 23,
+        "name": "Banco do Estado do Para",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20do%20Estado%20do%20Para/Logo_do_Banpar%C3%A1.svg"
+    },
+    {
+        "id" : 24,
+        "name": "Banco do Estado do Sergipe",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20do%20Estado%20do%20Sergipe/logo%20banese.svg"
+    },
+    {
+        "id" : 25,
+        "name": "Banco do Nordeste do Brasil S.A",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banco%20do%20Estado%20do%20Sergipe/logo%20banese.svg"
+    },
+    {
+        "id" : 26,
+        "name": "Bank of America",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Bank%20of%20America/bankofamerica-logo.svg"
+    },
+    {
+        "id" : 27,
+        "name": "Banrisul",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Banrisul/banrisul-logo-2023.svg"
+    },
+    {
+        "id" : 28,
+        "name": "Bradesco S.A",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Bradesco%20S.A/bradesco.svg"
+    },
+    {
+        "id" : 29,
+        "name": "Caixa Econômica Federal",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Caixa%20Econ%C3%B4mica%20Federal/caixa-economica-federal-X.svg"
+    },
+    {
+        "id" : 30,
+        "name": "Capitual",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Capitual/logo%20capitual.svg"
+    },
+    {
+        "id" : 31,
+        "name": "Conta Simples Soluções em Pagamentos",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Conta%20Simples%20Solu%C3%A7%C3%B5es%20em%20Pagamentos/conta-simples_logo.svg"
+    },
+    {
+        "id" : 32,
+        "name": "Cora Sociedade Credito Direto S.A",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Cora%20Sociedade%20Credito%20Direto%20S.A/icone-cora-rosa-2500px.svg"
+    },
+    {
+        "id" : 33,
+        "name": "Credisis",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Credisis/credisis.svg"
+    },
+    {
+        "id" : 34,
+        "name": "Cresol",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Cresol/Icone-original.svg"
+    },
+    {
+        "id" : 35,
+        "name": "Efí - Gerencianet",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Ef%C3%AD%20-%20Gerencianet/logo-efi-bank-laranja-nome-bank.svg"
+    },
+    {
+        "id" : 36,
+        "name": "Grafeno",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Grafeno/grafeno.svg"
+    },
+    {
+        "id" : 37,
+        "name": "Itaú Unibanco S.A",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Ita%C3%BA%20Unibanco%20S.A/itau.svg"
+    },
+    {
+        "id" : 38,
+        "name": "Lets Bank S.A",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Lets%20Bank%20S.A/Logo%20Letsbank.svg"
+    },
+    {
+        "id" : 39,
+        "name": "Mercado Pago",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Mercado%20Pago/mercado-pago.svg"
+    },
+    {
+        "id" : 40,
+        "name": "Nu Pagamentos S.A (Nubank)",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Nu%20Pagamentos%20S.A/nubank-logo-fundo-roxo2021.svg"
+    },
+    {
+        "id" : 41,
+        "name": "Omie.Cash",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Omie.Cash/omie.svg"
+    },
+    {
+        "id" : 42,
+        "name": "PagSeguro Internet S.A",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/PagSeguro%20Internet%20S.A/pagseguro.svg"
+    },
+    {
+        "id" : 43,
+        "name": "Quality Digital Bank - temporaria",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Quality%20Digital%20Bank/quality-logo-cinza.svg"
+    },
+    {
+        "id" : 44,
+        "name": "Sicoob",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Sicoob/sicoob-vector-logo.svg"
+    },
+    {
+        "id" : 45,
+        "name": "Sicredi",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Sicredi/logo-svg2.svg"
+    },
+    {
+        "id" : 46,
+        "name": "Stone Pagamentos S.A",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Stone%20Pagamentos%20S.A/stone.svg"
+    },
+    {
+        "id" : 47,
+        "name": "Unicred",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Unicred/verde.svg"
+    },
+    {
+        "id" : 48,
+        "name": "Uniprime",
+        "icon_url": "https://raw.githubusercontent.com/miguelhp373/Bancos-em-SVG/eb805f5b879885631813ac5554c85875973e6aaf/Uniprime/uniprime.svg"
+    }
+]

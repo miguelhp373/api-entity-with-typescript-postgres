@@ -33,16 +33,21 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UserService = void 0;
-const typeorm_1 = require("typeorm");
 const user_entities_1 = require("../entities/user.entities");
 const bcrypt = __importStar(require("bcrypt"));
+const data_source_1 = require("../data-source");
+const useralreadyexistserror_1 = require("../errors/useralreadyexistserror");
 class UserService {
     constructor() {
-        this.userRepository = (0, typeorm_1.getRepository)(user_entities_1.User);
+        this.userRepository = data_source_1.AppDataSource.getRepository(user_entities_1.User);
         // Outros métodos
     }
     createUser(name, email, password, authType) {
         return __awaiter(this, void 0, void 0, function* () {
+            const userExists = yield this.userRepository.findOne({ where: { email } });
+            if (userExists) {
+                throw new useralreadyexistserror_1.UserAlreadyExistsError('O Usuário Já Existe!');
+            }
             const hashedPassword = yield bcrypt.hash(password, 10);
             const user = new user_entities_1.User();
             user.name = name;
