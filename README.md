@@ -1,8 +1,8 @@
-# app-finances-multiplatform
+# app-wallet-finances
 
 ## Descrição
 
-A aplicação `app-finances-multiplatform` tem como objetivo organizar as finanças pessoais de forma eficiente e centralizada, permitindo o gerenciamento de receitas, despesas, contas bancárias e cartões de crédito. Além disso, oferece funcionalidades para o acompanhamento de investimentos, planejamento de pagamentos futuros e ferramentas financeiras diversas, como calculadoras de CDB a longo prazo e valorização monetária.
+A aplicação `app-wallet-finances` tem como objetivo organizar as finanças pessoais de forma eficiente e centralizada, permitindo o gerenciamento de receitas, despesas, contas bancárias e cartões de crédito. Além disso, oferece funcionalidades para o acompanhamento de investimentos, planejamento de pagamentos futuros e ferramentas financeiras diversas, como calculadoras de CDB a longo prazo e valorização monetária.
 
 ## Funcionalidades
 
