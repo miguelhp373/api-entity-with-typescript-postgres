@@ -3,6 +3,7 @@ import { SvgBankIconsService } from "../services/svg-bank-icons.service";
 import { AccountAlreadyExistsError } from "../errors/accountreadyexistserror";
 import { UserAccountService } from "../services/user.account.service";
 import { UserAccountInterface } from "../interfaces/user.account.interface";
+import { UUID } from "crypto";
 
 export class UserAccountsController {
 
@@ -13,7 +14,6 @@ export class UserAccountsController {
         
             return res.status(200).json(mainIcons);
         } catch (error) {
-            console.error('Erro:', error);
             return res.status(500).json({ message: 'Internal server error' });
         }
     }
@@ -25,27 +25,24 @@ export class UserAccountsController {
         
             return res.status(200).json(filterIconById);
         } catch (error) {
-            console.error('Erro:', error);
             return res.status(500).json({ message: 'Internal server error' });
         }
     }
 
     async registerNewAccount(req: Request, res: Response): Promise<Response> {
-        const { userEmail, accountType, accountName, accountIcon, accountBalance, showOnDashBoard }: UserAccountInterface = req.body;
+        const { userId, accountType, accountName, accountIcon, accountBalance, showOnDashBoard }: UserAccountInterface = req.body;
     
         try {
             const userAccountService = new UserAccountService();
             const newUserAccount = await userAccountService.createAccount({
-                userEmail: userEmail,
+                userId: userId,
                 accountType: accountType,
                 accountName: accountName,
                 accountIcon: accountIcon,
                 accountBalance: accountBalance,
                 showOnDashBoard: showOnDashBoard
             });
-    
-            console.log(newUserAccount); // Apenas para debug, pode remover isso
-    
+        
             return res.status(201).json({
                 success: true,
                 message: 'User Account created successfully',

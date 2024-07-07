@@ -4,7 +4,7 @@ import { DataSource } from 'typeorm';
 import path from 'path';
 
 // Obter o diretório atual do arquivo
-const currentDir = path.resolve(process.cwd(), 'src');
+const currentDir = path.resolve(process.cwd(), 'dist');
 
 const port = process.env.DB_PORT ? parseInt(process.env.DB_PORT, 10) : undefined;
 

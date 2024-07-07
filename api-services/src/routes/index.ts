@@ -3,6 +3,7 @@ import { apiKeyMiddleware } from "../middleware/middleware";
 import cors from 'cors';
 import userRoutes from "./user.routes";
 import userAccountsRoutes from "./user.accounts.routes";
+import userTransactionRoutes from "./user.transaction.routes";
 
 const routes = Router();
 
@@ -18,6 +19,7 @@ routes.use(apiKeyMiddleware);
 
 routes.use('/users', userRoutes);
 routes.use('/users/accounts', userAccountsRoutes);
+routes.use('/users/transaction', userTransactionRoutes);
 routes.get('/ping', (req: Request, res: Response) => res.status(200).json({ message: "pong" }));
 
 routes.use((req: Request, res: Response) => res.status(404).json({ message: "Path Not Found! Try Another Path" }));

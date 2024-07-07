@@ -1,14 +1,13 @@
-import { UUID } from "crypto";
 import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
 import { UserAccountInterface } from "../interfaces/user.account.interface";
 
 @Entity()
 export class UserAccounts {
     @PrimaryGeneratedColumn()
-    id: UUID;
+    id: string;
 
-    @Column({ type: 'varchar'})
-    userEmail: string;
+    @Column({ type: 'uuid'})
+    userId: string;
 
     @Column('varchar')
     accountType: string;
@@ -27,7 +26,7 @@ export class UserAccounts {
 
     constructor(accountData?: UserAccountInterface) {
         if (accountData) {
-            this.userEmail = accountData.userEmail;
+            this.userId = accountData.userId;
             this.accountType = accountData.accountType;
             this.accountName = accountData.accountName;
             this.accountIcon = accountData.accountIcon || 0;

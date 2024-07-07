@@ -3,8 +3,17 @@ import { User } from '../entities/user.entities';
 import * as bcrypt from 'bcrypt';
 import { AppDataSource } from '../data-source';
 import { UserAlreadyExistsError } from '../errors/useralreadyexistserror';
+import { UUID } from 'crypto';
+import { UserNotExistsError } from '../errors/usernotexistserror';
 
+enum ErrorCode {
+    USER_NOT_FOUND = 1001,
+    INVALID_USER_ID_FORMAT = 1002,
+    INTERNAL_SERVER_ERROR = 1003,
+    // Adicione mais códigos conforme necessário
+}
 export class UserService {
+
 
     private userRepository = AppDataSource.getRepository(User);
 
@@ -27,6 +36,22 @@ export class UserService {
         return this.userRepository.save(user);
     }
 
+
+    async updateUser(id: string, name: string, email: string): Promise<User> {
+                
+        const userBody = await this.userRepository.findOneBy({id: id as UUID});
+
+        if(!userBody){
+            throw new UserNotExistsError(`${ErrorCode.USER_NOT_FOUND.toString()} - Error on Try Update User Informations!`);
+        }
+
+        userBody.name = name;
+        userBody.email = email;        
+
+        return this.userRepository.save(userBody);
+    }
+
+
     async authenticateUser(email: string, password: string): Promise<User | null> {
         
         const user = await this.userRepository.findOne({ where: { email } });
@@ -43,5 +68,4 @@ export class UserService {
         return user;
     }
 
-    // Outros métodos
 }

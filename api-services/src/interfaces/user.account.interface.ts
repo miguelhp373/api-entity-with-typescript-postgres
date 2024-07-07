@@ -1,5 +1,8 @@
+import { UUID } from "crypto";
+
 export interface UserAccountInterface {
-    userEmail: string;
+    accountId?: UUID;
+    userId: UUID;
     accountType: string;
     accountName: string;
     accountIcon: number; // Opcional
